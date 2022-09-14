@@ -1,9 +1,7 @@
-#!/usr/bin/env node
-
 import React from "react";
 import ReactPDF from "@react-pdf/renderer";
-import MyDocument from "./pdf.js";
-import generateQR from "./generate-qrcode.js";
+import MyDocument from "./helpers/generate-pdf.js";
+import generateQR from "./helpers/generate-qrcode.js";
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 
 const certificate = {

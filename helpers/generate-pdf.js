@@ -10,7 +10,7 @@ import {
 } from "@react-pdf/renderer";
 
 import moment from "moment";
-import getDosages from "./helpers";
+import getDosages from "./get-doses";
 
 Font.register({
   family: "Oswald",
